@@ -16,7 +16,7 @@ def md5(inputString):
     return hashlib.md5(inputString.encode("utf-8")).hexdigest()
 
 def hashProcess(sharedList, targetHash, processID, sharedValue):
-    currentStr = ""
+    currentStr = ''
     time1 = time.time()
     time2 = time1
     hashrate = 0
