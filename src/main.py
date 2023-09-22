@@ -5,7 +5,6 @@ import string           # Contains prebuilt lists of ASCII/UTF-8 characters
 import time             # For calculating when to print to console
 import math             # Used to calculate how many stringFactories to build
 
-
 # Basic input, prone to breaking
 TARGET_LEN = int(input("Length of password: "))
 THREAD_COUNT = int(input("Number of hashing threads: "))
